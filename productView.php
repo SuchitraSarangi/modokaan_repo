@@ -186,6 +186,7 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: black;
 }
 
 /* Position the "next button" to the right */
@@ -196,7 +197,7 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(255,255,255,0.8);
 }
 
 /* Caption text */
@@ -308,14 +309,15 @@ img {vertical-align: middle;}
     <section class="section section-top section-full " style="padding:1px">       
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-10 col-lg-7 ">
+                <div class="col-md-12 col-lg-12 ">
 					        <div class="col-md-12 col-lg-12 text-center" style="padding-top:100px">
                     <!-- Heading -->
                     <h2 class="lg-title mb-2" style="line-height: 50px;">ମୋ ଦୋକାନ (My Shop)</h2>
                     <!-- Subheading -->
-                    <b class="mb-5 ;" style="color:orange;font-weight:bold;font-size:25px;">
+                    <b class="mb-5 ;" style="color:orange;font-weight:bold;font-size:25px;margin-top: -10px">
                         ଓଡିଶାର ବାସ୍ନା, ଓଡ଼ିଆଙ୍କ ପସନ୍ଦ
-                    </b>					
+                    </b><br>
+                    <b><h3>Product Details</h3></b>					
                   </div>
                 </div>
             </div>
@@ -324,7 +326,8 @@ img {vertical-align: middle;}
     <section>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="col-sm-12">
+        <div class="row" >
+          <div class="col-sm-12 col-lg-12 col-md-12" style="height: 200px;">
           <div class="slideshow-container">
           <div class="mySlides ">
             <div class="numbertext">1 / 3</div>
@@ -349,14 +352,28 @@ img {vertical-align: middle;}
 
           </div>
 
-          `<div style="text-align:center;">
+          <!-- `<div style="text-align:center;">
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
-          </div>
+          </div> -->
         
         </div>
+        </div>
+        <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: left;">
+                <button class="btn btn-info btn-lg" style="height: 58px">Share <i class="fa fa-share-alt"></i></button>
+                <a href="http://api.whatsapp.com://send?text=modokaan.com,  Check the Product Spicy Mixure. Please click here to see full Details." target="_blank" data-action="share/whatsapp/share"><button style="background: #32ba32;height: 35px;color: white;
+                  margin-bottom: 5px;border-radius: 20px; width: 35px;border: none;"><i class="fa fa-whatsapp fa-1x" style="color:white;cursor:pointer"></i></button></a>
+                 <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"><button style="background: blue;
+                    height: 35px;color: white;margin-bottom: 5px;border-radius: 20px;width: 35px;border: none;"><i class="fa fa-facebook fa-1x" style="color:white;cursor:pointer"></i></button></a>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <button class="btn btn-primary btn-lg"><i class="fa fa-cart-plus fa-2x"></i> Add to cart</button>
+              </div>
+        </div>
         
+       
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="col-sm-12 col-lg-12 col-md-12">
@@ -391,19 +408,12 @@ img {vertical-align: middle;}
                 <div class="col-lg-8 col-md-8 col-sm-6">
                   <h4><small> 1 Month</small></h4>
                 </div>          
-            </div>
+            </div><br><br><br>
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12" style="text-align: right;">
-                <button class="btn btn-info btn-lg" style="height: 58px">Share <i class="fa fa-share-alt"></i></button>
-                <a href="whatsapp://send?text=modokaan.com,  Check the Product Spicy Mixure. Please click here to see full Details." target="_blank" data-action="share/whatsapp/share"><i class="fa fa-whatsapp fa-2x" style="background-color:green;color:white;cursor:pointer"></i></a>
-                                                        <a href="http://www.facebook.com/sharer.php?u='modokaan.com,  Check the Product Spicy Mixure. Please click here to see full Details'" target="_blank"><i class="fa fa-facebook fa-2x" style="color:blue;cursor:pointer"></i></a>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <button class="btn btn-primary btn-lg"><i class="fa fa-cart-plus fa-2x"></i> Add to cart</button>
-              </div>
+              
               
             </div>
-                        
+                
         
         </div>
       </div>
